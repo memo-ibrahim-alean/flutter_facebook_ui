@@ -28,7 +28,6 @@ class _HomeScreenState extends State<HomeScreen>
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           bottom: TabBar(
@@ -36,42 +35,37 @@ class _HomeScreenState extends State<HomeScreen>
             indicator: const UnderlineTabIndicator(
               borderSide: BorderSide(color: Colors.blue, width: 2.0),
             ),
-            labelColor: Colors.blue,
-            unselectedLabelColor: Colors.black,
+            labelColor: Colors.blue, // Active tab color
+            unselectedLabelColor: Colors.black, // Inactive tab color
             tabs: [
               Tab(
                 icon: Icon(
                   size: 35,
                   Icons.home,
-                  color: Color(0xFF898F9C),
                 ),
               ),
               Tab(
                 icon: Icon(
                   size: 35,
                   Icons.video_library,
-                  color: Color(0xFF898F9C),
                 ),
               ),
               Tab(
                 icon: Icon(
                   size: 35,
                   Icons.store,
-                  color: Color(0xFF898F9C),
                 ),
               ),
               Tab(
                 icon: Icon(
                   size: 35,
                   Icons.person,
-                  color: Color(0xFF898F9C),
                 ),
               ),
               Tab(
                 icon: Icon(
                   size: 35,
                   Icons.notifications,
-                  color: Color(0xFF898F9C),
                 ),
               ),
               Tab(
@@ -171,4 +165,3 @@ class _HomeScreenState extends State<HomeScreen>
     );
   }
 }
-
