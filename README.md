@@ -3,7 +3,8 @@
 This project is a Flutter-based clone of the Facebook UI, focusing on the home tab with story widgets and post widgets. The project includes custom widgets for creating stories, viewing stories, and displaying posts with fixed image heights.
 
 ## Demo 
-[![Demo CountPages alpha](https://youtube.com/shorts/9BuAKruElsw?feature=share)](https://youtube.com/shorts/9BuAKruElsw?feature=share)
+https://github.com/user-attachments/assets/e53f005c-8949-4410-9870-07f456c2d318
+
 
 ## Features
 
