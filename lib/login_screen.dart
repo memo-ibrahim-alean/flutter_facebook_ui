@@ -1,3 +1,4 @@
+import 'package:facebookui/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -74,7 +75,11 @@ class LoginScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(16),
                     ),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.of(context).pushReplacement(
+                      MaterialPageRoute(builder: (context) => const HomeScreen()),
+                    );
+                  },
                   child: const Text(
                     'Login',
                     style: TextStyle(
