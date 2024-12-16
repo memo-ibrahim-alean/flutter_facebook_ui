@@ -25,12 +25,12 @@ https://github.com/user-attachments/assets/e53f005c-8949-4410-9870-07f456c2d318
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/flutter_facebook_ui_clone.git
+   git clone https://github.com/yourusername/flutter_facebook_ui.git
    ```
    
 ### Navigate to the project directory:
 ```sh
-   cd flutter_facebook_ui_clone
+   cd flutter_facebook_ui
    ```
 ### Get the dependencies:
 ```sh
